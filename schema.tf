@@ -1,6 +1,6 @@
 resource "null_resource" "schema" {
 
-  dependepends_on = [aws_db_instance.mysql]  
+  depends_on = [aws_db_instance.mysql]  
   provisioner "local-exec" {
          command = <<EOF
             cd /tmp 
