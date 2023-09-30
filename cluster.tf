@@ -25,3 +25,5 @@ resource "aws_db_parameter_group" "default" {
   name   = "roboshop-${var.ENV}-mysql-pg"
   family = "mysql5.7"
 }
+
+
